@@ -12,6 +12,8 @@
 		76808C0627DEA317008A7974 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76808C0527DEA317008A7974 /* Assets.xcassets */; };
 		76808C0927DEA317008A7974 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76808C0827DEA317008A7974 /* Preview Assets.xcassets */; };
 		76808C1127DEA3D9008A7974 /* CustomPaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76808C1027DEA3D9008A7974 /* CustomPaths.swift */; };
+		76808C1327DEA670008A7974 /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76808C1227DEA670008A7974 /* Triangle.swift */; };
+		76808C1627DEA883008A7974 /* ArcShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76808C1527DEA883008A7974 /* ArcShape.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		76808C0527DEA317008A7974 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		76808C0827DEA317008A7974 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		76808C1027DEA3D9008A7974 /* CustomPaths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPaths.swift; sourceTree = "<group>"; };
+		76808C1227DEA670008A7974 /* Triangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
+		76808C1527DEA883008A7974 /* ArcShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcShape.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,8 +78,18 @@
 			isa = PBXGroup;
 			children = (
 				76808C1027DEA3D9008A7974 /* CustomPaths.swift */,
+				76808C1427DEA83A008A7974 /* Shapes */,
 			);
 			path = Learning;
+			sourceTree = "<group>";
+		};
+		76808C1427DEA83A008A7974 /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				76808C1227DEA670008A7974 /* Triangle.swift */,
+				76808C1527DEA883008A7974 /* ArcShape.swift */,
+			);
+			path = Shapes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,8 +163,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				76808C1127DEA3D9008A7974 /* CustomPaths.swift in Sources */,
+				76808C1627DEA883008A7974 /* ArcShape.swift in Sources */,
 				76808C0427DEA313008A7974 /* ContentView.swift in Sources */,
 				76808C0227DEA313008A7974 /* DrawingApp.swift in Sources */,
+				76808C1327DEA670008A7974 /* Triangle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
