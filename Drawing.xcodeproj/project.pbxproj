@@ -15,6 +15,7 @@
 		76808C1327DEA670008A7974 /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76808C1227DEA670008A7974 /* Triangle.swift */; };
 		76808C1627DEA883008A7974 /* ArcShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76808C1527DEA883008A7974 /* ArcShape.swift */; };
 		76808C1827DF4332008A7974 /* CGAffineTransform_EvenOddFills.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76808C1727DF4332008A7974 /* CGAffineTransform_EvenOddFills.swift */; };
+		76808C1A27DF4A12008A7974 /* CreativeBorderAndFillsWithImagePaint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76808C1927DF4A12008A7974 /* CreativeBorderAndFillsWithImagePaint.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		76808C1227DEA670008A7974 /* Triangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
 		76808C1527DEA883008A7974 /* ArcShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcShape.swift; sourceTree = "<group>"; };
 		76808C1727DF4332008A7974 /* CGAffineTransform_EvenOddFills.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGAffineTransform_EvenOddFills.swift; sourceTree = "<group>"; };
+		76808C1927DF4A12008A7974 /* CreativeBorderAndFillsWithImagePaint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreativeBorderAndFillsWithImagePaint.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				76808C1027DEA3D9008A7974 /* CustomPaths.swift */,
 				76808C1727DF4332008A7974 /* CGAffineTransform_EvenOddFills.swift */,
 				76808C1427DEA83A008A7974 /* Shapes */,
+				76808C1927DF4A12008A7974 /* CreativeBorderAndFillsWithImagePaint.swift */,
 			);
 			path = Learning;
 			sourceTree = "<group>";
@@ -168,6 +171,7 @@
 				76808C1127DEA3D9008A7974 /* CustomPaths.swift in Sources */,
 				76808C1627DEA883008A7974 /* ArcShape.swift in Sources */,
 				76808C0427DEA313008A7974 /* ContentView.swift in Sources */,
+				76808C1A27DF4A12008A7974 /* CreativeBorderAndFillsWithImagePaint.swift in Sources */,
 				76808C0227DEA313008A7974 /* DrawingApp.swift in Sources */,
 				76808C1827DF4332008A7974 /* CGAffineTransform_EvenOddFills.swift in Sources */,
 				76808C1327DEA670008A7974 /* Triangle.swift in Sources */,
