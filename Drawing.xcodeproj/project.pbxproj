@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7640B30227E18BB100639D14 /* ColorCyclingCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7640B30127E18BB100639D14 /* ColorCyclingCircle.swift */; };
+		7640B30627E3377700639D14 /* SpecialEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7640B30527E3377700639D14 /* SpecialEffects.swift */; };
 		76808C0227DEA313008A7974 /* DrawingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76808C0127DEA313008A7974 /* DrawingApp.swift */; };
 		76808C0427DEA313008A7974 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76808C0327DEA313008A7974 /* ContentView.swift */; };
 		76808C0627DEA317008A7974 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76808C0527DEA317008A7974 /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		7640B30127E18BB100639D14 /* ColorCyclingCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCyclingCircle.swift; sourceTree = "<group>"; };
+		7640B30527E3377700639D14 /* SpecialEffects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialEffects.swift; sourceTree = "<group>"; };
 		76808BFE27DEA313008A7974 /* Drawing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Drawing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76808C0127DEA313008A7974 /* DrawingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingApp.swift; sourceTree = "<group>"; };
 		76808C0327DEA313008A7974 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +46,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7640B30427E3375200639D14 /* Special Effects */ = {
+			isa = PBXGroup;
+			children = (
+				7640B30527E3377700639D14 /* SpecialEffects.swift */,
+			);
+			path = "Special Effects";
+			sourceTree = "<group>";
+		};
 		76808BF527DEA312008A7974 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +93,7 @@
 		76808C0F27DEA3C8008A7974 /* Learning */ = {
 			isa = PBXGroup;
 			children = (
+				7640B30427E3375200639D14 /* Special Effects */,
 				76808C1027DEA3D9008A7974 /* CustomPaths.swift */,
 				76808C1727DF4332008A7974 /* CGAffineTransform_EvenOddFills.swift */,
 				76808C1427DEA83A008A7974 /* Shapes */,
@@ -184,6 +195,7 @@
 				76808C0427DEA313008A7974 /* ContentView.swift in Sources */,
 				76808C1A27DF4A12008A7974 /* CreativeBorderAndFillsWithImagePaint.swift in Sources */,
 				76808C0227DEA313008A7974 /* DrawingApp.swift in Sources */,
+				7640B30627E3377700639D14 /* SpecialEffects.swift in Sources */,
 				7640B30227E18BB100639D14 /* ColorCyclingCircle.swift in Sources */,
 				76808C1827DF4332008A7974 /* CGAffineTransform_EvenOddFills.swift in Sources */,
 				76808C1327DEA670008A7974 /* Triangle.swift in Sources */,
