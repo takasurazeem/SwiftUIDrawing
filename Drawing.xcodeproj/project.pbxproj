@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7640B30227E18BB100639D14 /* ColorCyclingCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7640B30127E18BB100639D14 /* ColorCyclingCircle.swift */; };
 		76808C0227DEA313008A7974 /* DrawingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76808C0127DEA313008A7974 /* DrawingApp.swift */; };
 		76808C0427DEA313008A7974 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76808C0327DEA313008A7974 /* ContentView.swift */; };
 		76808C0627DEA317008A7974 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76808C0527DEA317008A7974 /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7640B30127E18BB100639D14 /* ColorCyclingCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCyclingCircle.swift; sourceTree = "<group>"; };
 		76808BFE27DEA313008A7974 /* Drawing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Drawing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76808C0127DEA313008A7974 /* DrawingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingApp.swift; sourceTree = "<group>"; };
 		76808C0327DEA313008A7974 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 				76808C1727DF4332008A7974 /* CGAffineTransform_EvenOddFills.swift */,
 				76808C1427DEA83A008A7974 /* Shapes */,
 				76808C1927DF4A12008A7974 /* CreativeBorderAndFillsWithImagePaint.swift */,
+				769E7D5927E2666E00FE8FA2 /* HighPerformanceDrawingGroup */,
 			);
 			path = Learning;
 			sourceTree = "<group>";
@@ -96,6 +99,14 @@
 				76808C1527DEA883008A7974 /* ArcShape.swift */,
 			);
 			path = Shapes;
+			sourceTree = "<group>";
+		};
+		769E7D5927E2666E00FE8FA2 /* HighPerformanceDrawingGroup */ = {
+			isa = PBXGroup;
+			children = (
+				7640B30127E18BB100639D14 /* ColorCyclingCircle.swift */,
+			);
+			path = HighPerformanceDrawingGroup;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,6 +184,7 @@
 				76808C0427DEA313008A7974 /* ContentView.swift in Sources */,
 				76808C1A27DF4A12008A7974 /* CreativeBorderAndFillsWithImagePaint.swift in Sources */,
 				76808C0227DEA313008A7974 /* DrawingApp.swift in Sources */,
+				7640B30227E18BB100639D14 /* ColorCyclingCircle.swift in Sources */,
 				76808C1827DF4332008A7974 /* CGAffineTransform_EvenOddFills.swift in Sources */,
 				76808C1327DEA670008A7974 /* Triangle.swift in Sources */,
 			);
