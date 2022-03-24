@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7621D0E927EC6D5400DDF390 /* Checkerboard_AnimatablePair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7621D0E827EC6D5400DDF390 /* Checkerboard_AnimatablePair.swift */; };
 		7640B30227E18BB100639D14 /* ColorCyclingCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7640B30127E18BB100639D14 /* ColorCyclingCircle.swift */; };
 		7640B30627E3377700639D14 /* SpecialEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7640B30527E3377700639D14 /* SpecialEffects.swift */; };
 		7640B30927E33F0700639D14 /* SimpleShapeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7640B30827E33F0700639D14 /* SimpleShapeAnimation.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7621D0E827EC6D5400DDF390 /* Checkerboard_AnimatablePair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checkerboard_AnimatablePair.swift; sourceTree = "<group>"; };
 		7640B30127E18BB100639D14 /* ColorCyclingCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCyclingCircle.swift; sourceTree = "<group>"; };
 		7640B30527E3377700639D14 /* SpecialEffects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialEffects.swift; sourceTree = "<group>"; };
 		7640B30827E33F0700639D14 /* SimpleShapeAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleShapeAnimation.swift; sourceTree = "<group>"; };
@@ -48,6 +50,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7621D0E727EC6D3700DDF390 /* AnimatablePair */ = {
+			isa = PBXGroup;
+			children = (
+				7621D0E827EC6D5400DDF390 /* Checkerboard_AnimatablePair.swift */,
+			);
+			path = AnimatablePair;
+			sourceTree = "<group>";
+		};
 		7640B30427E3375200639D14 /* Special Effects */ = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +113,7 @@
 		76808C0F27DEA3C8008A7974 /* Learning */ = {
 			isa = PBXGroup;
 			children = (
+				7621D0E727EC6D3700DDF390 /* AnimatablePair */,
 				7640B30727E33EC500639D14 /* Aminating Simple Shapes */,
 				7640B30427E3375200639D14 /* Special Effects */,
 				76808C1027DEA3D9008A7974 /* CustomPaths.swift */,
@@ -205,6 +216,7 @@
 				76808C1627DEA883008A7974 /* ArcShape.swift in Sources */,
 				7640B30927E33F0700639D14 /* SimpleShapeAnimation.swift in Sources */,
 				76808C0427DEA313008A7974 /* ContentView.swift in Sources */,
+				7621D0E927EC6D5400DDF390 /* Checkerboard_AnimatablePair.swift in Sources */,
 				76808C1A27DF4A12008A7974 /* CreativeBorderAndFillsWithImagePaint.swift in Sources */,
 				76808C0227DEA313008A7974 /* DrawingApp.swift in Sources */,
 				7640B30627E3377700639D14 /* SpecialEffects.swift in Sources */,
